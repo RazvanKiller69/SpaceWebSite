@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Space</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/ico.png" type="image/x-icon" />
+  </head>
+
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="margin-right: 1px"
+          ><img src="/images/ico.png" style="width: 40px" alt="Navbar"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNavDropdown">
+          <div class="d-lg-flex justify-content-lg-start w-100">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ss">Solar System</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ff">Fun Facts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wwa">Who we are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <!-- hero-section -->
+    <div id="carouselExampleCaptions" class="carousel slide mb-4">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative active">
+          <img src="/images/2.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>THE MILKY WAY</h5>
+            <p>
+              The Milky Way is a barred spiral galaxy containing our Solar
+              System.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="/images/1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>BLACK HOLE</h5>
+            <p>
+              A black hole is a region of spacetime with gravity so intense that
+              nothing can escape it.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-md-block">
+            <h5>SUPERNOVA</h5>
+            <p>
+              A supernova is a powerful explosion marking the death of a massive
+              star.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- hero-section -->
+    <!-- planets section -->
+    <div class="container mb-5">
+      <div class="row mb-3">
+        <h2 class="text-center text-success" id="ss">Solar System</h2>
+      </div>
+      <div class="row">
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/sun.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">THE SUN</h5>
+              <p class="card-text">
+                The Sun is a star at the center of our Solar System, providing
+                heat and light essential for life on Earth through nuclear
+                fusion reactions in its core.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/mercur.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">MERCURY</h5>
+              <p class="card-text">
+                The smallest planet, closest to the Sun, with extreme
+                temperature variations due to its lack of atmosphere.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/venus.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">VENUS</h5>
+              <p class="card-text">
+                Similar in size to Earth but with a dense, toxic atmosphere of
+                sulfuric acid clouds, and surface temperatures hot enough to
+                melt lead.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/earth.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">EARTH</h5>
+              <p class="card-text">
+                Our home planet, with a diverse environment supporting life as
+                we know it, including oceans, continents, and a protective
+                atmosphere.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/mars.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">MARS</h5>
+              <p class="card-text">
+                SA cold, desert-like planet with a thin atmosphere, known for
+                its rusty red color due to iron oxide on its surface, and
+                potential signs of ancient water.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/jew.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">JUPITER</h5>
+              <p class="card-text">
+                The largest planet, primarily composed of hydrogen and helium,
+                with a turbulent atmosphere featuring the Great Red Spot—a
+                massive storm larger than Earth.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/saturn.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">SATURN</h5>
+              <p class="card-text">
+                Known for its spectacular ring system made of ice and rock
+                particles, Saturn is a gas giant with a complex system of moons
+                and a distinct hexagonal storm at its north pole.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/uranus.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">URANUS</h5>
+              <p class="card-text">
+                A cold, ice giant planet with a unique tilt on its axis, causing
+                it to rotate almost sideways, and a system of faint rings and
+                moons.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center mb-3"
+        >
+          <div class="card p-0" style="width: 18rem">
+            <img src="/images/neptune.jpg" class="card-image-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">NEPTUNE</h5>
+              <p class="card-text">
+                The farthest planet from the Sun, Neptune is an ice giant with a
+                dynamic atmosphere featuring high-speed winds and a Great Dark
+                Spot similar to Jupiter's storm.
+              </p>
+              <a href="||" class="btn btn-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- planets section -->
+    <!-- about section -->
+    <div class="container mb-5">
+      <div class="row mb-3">
+        <h2 class="text-center text-success" id="ff">Fun Facts</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <ul class="list-group">
+              <li class="list-group-item bggr">
+                Space is Silent: Unlike what movies often portray, space is
+                mostly silent because sound waves require a medium like air to
+                travel through.
+              </li>
+              <li class="list-group-item bggr">
+                Neutron stars are incredibly dense remnants of massive stars
+                that have exploded in supernovae. A sugar-cube-sized amount of
+                neutron star material would weigh about a billion tons on Earth.
+              </li>
+              <li class="list-group-item bggr">
+                In space, water can exist in a state where it appears to float
+                as small blobs due to surface tension. Astronauts have to be
+                careful with water droplets as they can float away
+                unpredictably.
+              </li>
+              <li class="list-group-item bggr">
+                There are millions of pieces of space junk orbiting Earth,
+                including old satellites, rocket stages, and debris from
+                collisions. This junk poses a risk to operational spacecraft.
+              </li>
+              <li class="list-group-item bggr">
+                Mars has polar ice caps composed largely of water ice and dry
+                ice (frozen carbon dioxide). Some regions of Mars have even
+                revealed evidence of past lakes that could have sustained
+                microbial life.
+              </li>
+              <li class="list-group-item bggr">
+                According to Einstein's theory of relativity, time moves slower
+                in stronger gravitational fields. This means astronauts on the
+                International Space Station age slightly slower than people on
+                Earth due to the station's orbital speed and altitude.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 mb-3">
+            <figure class="figure">
+              <img
+                src="/images/2022-06-05 17-35-29.gif"
+                class="figure-img img-fluid rounded card-img"
+                style="width: 900px"
+                alt="..."
+              />
+              <figcaption class="figure-caption" style="color: rgb(45, 42, 61)">
+                At the end of the universe there is only me.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <!-- who -->
+    <div class="container mb-5">
+      <div class="row mb-3">
+        <h4 class="text-center text-success" id="wwa">Who we are</h4>
+      </div>
+      <div class="row">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam
+          doloremque veritatis, voluptate similique aut adipisci cumque ipsam
+          asperiores obcaecati consectetur dolor dolorem, consequatur illo vel
+          nam mollitia, magni dolore Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Quisquam repellat ab ut laudantium laborum
+          consectetur eligendi cum voluptatibus earum, placeat unde consequuntur
+          qui numquam at debitis, quam, laboriosam quo blanditiis.
+        </p>
+        <div
+          class="col-xs-12 col-sm-6 col-md-3 d-flex justify-content-center"
+          style="width: 100%"
+        >
+          <a href="a" role="button" class="btn btn-putline-success btn-success w-100"
+            >Get to know us</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- who -->
+    <!-- faq -->
+    <div class="container mb-5">
+      <div class="row mb-3">
+        <h4 class="text-center text-success" id="faq">FAQ</h4>
+      </div>
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- faq -->
+    <!-- footer -->
+    <div class="container-fluid bg-black text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 p-3">
+            <ul class="list-group">
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="http://" class="texl-light-purple"
+                  >Facebook<i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="http://" class="texl-light-purple"
+                  >Instagram<i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="http://" class="texl-light-purple"
+                  >Twitter<i class="bi bi-twitter-x"></i
+                ></a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="http://" class="texl-light-purple"
+                  >Pinterest<i class="bi bi-pinterest"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 p-3">
+            <ul class="list-group">
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="#home" class="texl-light-purple">Home</a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="#ss" class="texl-light-purple">Solar System</a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="#ff" class="texl-light-purple">Fun facts</a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="#wwa" class="texl-light-purple">Who we are</a>
+              </li>
+              <li
+                class="list-group-item list-footer bg-black texl-light-purple d-flex justify-content-center"
+              >
+                <a href="#faq" class="texl-light-purple">Faq</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <figure class="figure">
+              <img
+                src="/images/2022-06-05 17-35-29.gif"
+                class="figure-img img-fluid rounded card-img-footer"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center text-dark-purple pb-3">
+          <p class="d-flex justify-content-center text-dark-purple pb-3">
+            Starship.inc<i class="bi bi-rocket-takeoff-fill"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
